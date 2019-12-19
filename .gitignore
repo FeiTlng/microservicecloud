@@ -2,10 +2,10 @@
 
 # Editor directories and files
 .idea
-.iml
 .vscode
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.log
+*.iml
