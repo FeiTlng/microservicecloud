@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE mapper PUBLIC "-//mybatis.org//DTDMapper3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.oyft.springcloud.dao.DeptDao">
+    <sql id="Base_list">
+        deptNO,dName,dbSource
+    </sql>
+    <select id="findById" resultType="Dept" parameterType="Long">
+      SELECT deptNO,dName,dbSource FROM dept WHERE deptNO=#{deptNO};
+   </select>
+    <select id="findAll" resultType="Dept">
+        SELECT deptNO,dName,dbSource FROM dept;
+    </select>
+    <insert id="addDept" parameterType="Dept">
+        INSERT INTO dept(dName,dbSource) values (#{dName},DATABASE());
+    </insert>
+</mapper>
