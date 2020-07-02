@@ -26,7 +26,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <junit.version>4.12</junit.version>
         <log4j.version>1.2.17</log4j.version>
-        <mysqlconn.version>5.1.29</mysqlconn.version>
+        <mysqlconn.version>8.0.16</mysqlconn.version>
         <druid.version>1.0.31</druid.version>
     </properties>
 
