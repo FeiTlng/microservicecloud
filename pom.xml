@@ -24,7 +24,7 @@
         <project.build.sourceEmcoding>1.8</project.build.sourceEmcoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <log4j.version>1.2.17</log4j.version>
         <mysqlconn.version>5.1.29</mysqlconn.version>
         <druid.version>1.0.31</druid.version>
